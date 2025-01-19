@@ -1151,8 +1151,8 @@ body {
 ----------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------*/
 .site-footer {
-  background-color: whitesmoke;
-  color: black;
+  background-color: #150d17;
+  color: white;
   padding: 40px 0 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -1183,7 +1183,7 @@ body {
 }
 
 .footer-links a {
-  color: black;
+  color: white;
   text-decoration: none;
   transition: opacity 0.3s ease;
 }
@@ -1206,7 +1206,7 @@ body {
 }
 
 .footer-contact button {
-  background-color: black;
+  background-color: #150d17;
   color: white;
   border: none;
   padding: 10px;
@@ -1238,7 +1238,7 @@ body {
 }
 
 .social-icon {
-  color: black;
+  color: white;
   font-size: 24px;
   text-decoration: none;
   width: 40px;
@@ -1246,13 +1246,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(53, 48, 48, 0.1);
+  background-color: rgb(74, 72, 72);
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
 
 .social-icon:hover {
-  background-color: rgba(0, 0, 0, 0.342);
+  background-color: rgb(64, 63, 63);
 }
 
 .footer-legal {
@@ -1261,7 +1261,7 @@ body {
 }
 
 .legal-link {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 14px;
   transition: opacity 0.3s ease;
@@ -1306,7 +1306,7 @@ body {
   border: none;
   outline: none;
   background-color: #555;
-  color: black;
+  color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 50%;
@@ -1315,7 +1315,7 @@ body {
 }
 
 #scrollTopBtn:hover {
-  background-color: #333;
+  background-color: #737171;
   color: white;
 }
 
@@ -1967,6 +1967,7 @@ hr {
   padding-left: 5px;
   padding-right: 5px;
   font-family: 'Times New Roman', Times, serif;
+ 
 }
 
 .menu_text p:last-child {
@@ -2222,7 +2223,7 @@ body.supply {
   padding: 20px;
 
   flex-grow: 1;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(45, 45, 45);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -2231,6 +2232,7 @@ body.supply {
   opacity: 0;
   transform: translateY(50px);
   animation: fadeInUp-invest 1s ease-out forwards;
+  color: white;
 }
 
 @keyframes fadeInUp-invest {
@@ -2250,6 +2252,7 @@ body.supply {
   margin-right: 20px;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
+  color: white;
 }
 
 .text-content-invest h2 {
@@ -2259,7 +2262,7 @@ body.supply {
 
 .text-content-invest p {
   font-size: 1rem;
-  color: black;
+  color: white;
 }
 
 .image-content-invest {
@@ -2293,7 +2296,7 @@ body.supply {
 /* Dropdown CSS */
 .dropdown-content {
   display: none;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: black;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-top: 10px;
@@ -2697,7 +2700,7 @@ body.supply {
   max-width: 800px; /* Adjusted width */
   margin: 0 auto;
   padding: 20px; /* Adjusted padding */
-  background-color: #ffffff;
+  background-color: rgb(57, 56, 56);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Sharper shadow */
   border-radius: 10px; /* Sharper corners */
   overflow: hidden;
@@ -2725,14 +2728,14 @@ body.supply {
 }
 .support-section h2 {
   font-size: 1.7em;
-  color: #01579b;
+  color: wheat;
   margin-bottom: 15px;
   text-align: center;
   font-weight: 600;
 }
 .support-section p {
   font-size: 1.1em;
-  color: #00796b;
+  color: white;
   line-height: 1.6;
   text-align: center;
 }
@@ -2753,7 +2756,7 @@ body.supply {
 .support-timeline-item .support-year {
   font-weight: 600;
   margin-right: 15px;
-  color: #004d40;
+  color: whitesmoke;
   font-size: 1.2em;
 }
 .support-timeline-item .support-bar {
@@ -3701,6 +3704,7 @@ body.supply {
   opacity: 0;
   transform: translateY(50px);
   animation: marketEntryFadeInUp 0.8s ease-out forwards;
+  color: black;
 }
 
 .marketEntryArrow {
