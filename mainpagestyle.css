@@ -651,22 +651,22 @@ color: white;
   /* ----------video start-----------------------------------------------------*/
 
     .modal-header{
-      background-color:white;
-      color: rgb(20, 16, 16);
+      background-color:rgb(55, 55, 55);
+      color: white;
       font-family: 'Times New Roman', Times, serif;
     }
     .modal-body{
-      background-color: white;
+      background-color: rgb(55, 55, 55);
       height: 430px;
       font-family: 'Times New Roman', Times, serif !important;
       font-size: 18px;
-      color: black;
+      color: white;
       text-align: justify;
       padding-left: 20px !important;
       padding-right: 20px !important;
     }
     .modal-footer{
-      background-color: white !important;
+      background-color: rgb(55, 55, 55) !important;
     }
     
       /* Make the video responsive */
@@ -1792,7 +1792,7 @@ body {
 }
 
 .timeline-content {
-  background-color: #ffffff;
+  background-color: black;
   border: 1px solid #ccc;
   padding: 10px 15px;
   border-radius: 8px;
