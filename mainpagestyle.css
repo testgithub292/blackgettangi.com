@@ -737,12 +737,16 @@ color: white;
   /* ----------video start-----------------------------------------------------*/
 
     .modal-header{
-      background-color:rgb(55, 55, 55);
-      color: white;
+      background: rgba(0, 0, 0, 0.6); /* Black with transparency */
+  backdrop-filter: blur(10px);   /* Glass blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
+  color: white; /* Text color */
       font-family: 'Times New Roman', Times, serif;
     }
     .modal-body{
-      background-color: rgb(55, 55, 55);
+      background: rgba(0, 0, 0, 0.6); /* Black with transparency */
+      backdrop-filter: blur(10px);   /* Glass blur effect */
+      border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
       height: 430px;
       font-family: 'Times New Roman', Times, serif !important;
       font-size: 18px;
@@ -752,7 +756,9 @@ color: white;
       padding-right: 20px !important;
     }
     .modal-footer{
-      background-color: rgb(55, 55, 55) !important;
+      background: rgba(0, 0, 0, 0.6) !important; /* Black with transparency */
+      backdrop-filter: blur(10px);   /* Glass blur effect */
+      border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
     }
     
       /* Make the video responsive */
@@ -1512,19 +1518,19 @@ body {
 
 /* Scrollbar ki background */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Scrollbar track ka color */
+  background: white; /* Scrollbar track ka color */
   border-radius: 10px; /* Track ka radius */
 }
 
 /* Scrollbar ka thumb (jo move karta hai) */
 ::-webkit-scrollbar-thumb {
-  background: #888; /* Thumb ka color */
+  background: white !important; /* Thumb ka color */
   border-radius: 10px; /* Thumb ka radius */
 }
 
 /* Hover par thumb ka color badalna */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: white;
 }
 
 
@@ -3601,8 +3607,14 @@ body.supply {
   flex: 0 0 auto;
   width: 350px;
   height: 450px;
-  background: linear-gradient(135deg, #150d17, #150d17);
+  background: rgba(70, 64, 64, 0.003);
+  background-color: rgba(70, 64, 64, 0.003); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
   
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   border-radius: 12px;
   color: white;
   text-transform: capitalize;
