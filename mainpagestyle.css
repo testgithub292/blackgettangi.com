@@ -254,7 +254,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 80px;
     font-weight: bold;
-    color: white;
+    color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -289,8 +289,8 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     
-    color: whitesmoke;
-    text-shadow: whitesmoke;
+    color: white !important;
+    text-shadow: 5px 5px 15px white;
     opacity: 0;
     position: absolute;
     top: 100px; /* Adjust position as needed */
