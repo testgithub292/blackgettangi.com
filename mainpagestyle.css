@@ -722,7 +722,7 @@ color: white;
   .percentage {
       font-size: 30px;
       font-weight: bold;
-      color: #6a28b8;
+      color: green;
   }
   @media (max-width: 700px) {
     .outer-circle {
@@ -1764,7 +1764,7 @@ body {
 }
 
 .text-content-break p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
 }
 
@@ -3731,7 +3731,7 @@ body.supply {
   position: absolute;
   width: 0%; /* Initially 0% */
   height: 100%;
-  background-color: #a74dfc; /* Purple fill */
+  background-color: greenyellow; /* Purple fill */
   border-radius: 15px;
   transition: width 2s ease; /* Smooth width animation */
 }

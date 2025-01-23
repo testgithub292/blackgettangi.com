@@ -665,7 +665,7 @@ function animateProgressCircle(start, end, duration) {
 
         // Update the conic-gradient to reflect progress
         const progressColor = `conic-gradient(
-            #a74dfc 0% ${current}%,  /* Purple for progress */
+rgb(77, 252, 100) 0% ${current}%,  /* Purple for progress */
             #e6e6e6 ${current}% 100% /* Gray for remaining */
         )`;
         progressCircle.style.background = progressColor;
