@@ -289,7 +289,8 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     
-    color: white;
+    color: whitesmoke;
+    text-shadow: whitesmoke;
     opacity: 0;
     position: absolute;
     top: 100px; /* Adjust position as needed */
@@ -2643,11 +2644,12 @@ body.supply {
   box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s ease;
   margin-top: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .card-body-investor-gain p {
   line-height: 1.8;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   text-align: justify;
 }
