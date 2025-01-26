@@ -655,12 +655,12 @@ color: white;
   
   }
   .aboutustextfirstsection{
-    text-align: left;
+   
     padding-left: 15px;
    padding-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 20px;
-
+text-align: justify;
     color: white !important;
   
   }
@@ -3668,7 +3668,8 @@ body.supply {
   padding-top: 70px;
 }
 
-.section10Card {
+
+/*.section10Card {
   flex: 0 0 auto;
   width: 350px;
   height: 450px;
@@ -3680,11 +3681,68 @@ body.supply {
   border: 1px solid rgba(255, 255, 255, 0.3); 
 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  border-radius: 12px;
+  border-radius: 20px;
   color: white;
   text-transform: capitalize;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
  
+}
+
+*/
+
+
+.section10Card {
+  width: 350px;
+  height: 450px;
+  display: grid;
+  background: rgba(70, 64, 64, 0.003);
+  background-color: rgba(70, 64, 64, 0.003); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  place-content: center;
+  color: white;
+  /*text-shadow: 0 1px 0 rgba(70, 64, 64, 0.003);*/
+  --border-angle: 0turn;
+  --main-bg: conic-gradient(
+    from var(--border-angle),
+    #213,
+    rgba(70, 64, 64, 0.003) 5%,
+    #112 60%,
+    #213 95%
+  );
+  border: solid 5px transparent;
+  border-radius: 2em;
+  --gradient-border: conic-gradient(
+    from var(--border-angle),
+    transparent 25%,
+    #08f,
+    rgb(255, 0, 225) 99%,
+    transparent
+  );
+  background: var(--main-bg) padding-box, var(--gradient-border) border-box, var(--main-bg) border-box;
+  background-position: center center;
+  -webkit-animation: bg-spin 3s linear infinite;
+          animation: bg-spin 3s linear infinite;
+}
+@-webkit-keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+.box:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
 }
 
 @media (max-width: 768px) {
