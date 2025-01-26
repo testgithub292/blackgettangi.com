@@ -612,7 +612,7 @@ color: white;
     margin-top: 0px;
     padding-left: 30px;
     padding-right: 30px;
-    line-height: 20px;
+    line-height: 25px;
   }
   .aboutustextfirstsection{
     padding-top: 50px !important;
@@ -1090,7 +1090,7 @@ body {
   }
 
   #problem-card p {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .problem-btn-custom {
@@ -1115,7 +1115,7 @@ body {
   }
 
   #problem-card p {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .problem-btn-custom {
