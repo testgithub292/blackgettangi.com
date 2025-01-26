@@ -1582,13 +1582,13 @@ body {
 
 /* Scrollbar ki background */
 ::-webkit-scrollbar-track {
-  background: white; /* Scrollbar track ka color */
+  background: black; /* Scrollbar track ka color */
   border-radius: 10px; /* Track ka radius */
 }
 
 /* Scrollbar ka thumb (jo move karta hai) */
 ::-webkit-scrollbar-thumb {
-  background: white !important; /* Thumb ka color */
+  background: black !important; /* Thumb ka color */
   border-radius: 10px; /* Thumb ka radius */
 }
 
@@ -3623,7 +3623,7 @@ body.supply {
 
   width: 100%;
 
-  background-image: url(images/bg\ image\ 2.png);
+  background-image: url(images/bg\ section5.png);
 
   background-size: cover; /* Image ko full cover karein */
   background-position: center; /* Image ko center karein */
