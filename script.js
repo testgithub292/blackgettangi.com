@@ -339,7 +339,7 @@ cards.forEach(card => scrollobserver.observe(card));
 
 
 
-/*------------------------------------------------------------*/
+/*------------------------------------------------------------
 
   // Get references to elements
   const fullLine = document.getElementById('fullLine');
@@ -363,7 +363,7 @@ cards.forEach(card => scrollobserver.observe(card));
     }, 800); // Delay for full line animation
   });
 
-
+*/
   //---------------------------------------------------------------------------
 
  /* window.onscroll = function() {hideButtonsOnScroll()};
