@@ -295,7 +295,7 @@
   .full-line {
     margin-top: 90px !important;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 25px;
     
     color: white !important;
    
@@ -481,7 +481,7 @@
     }
     .full-line {
       top: 80px;
-      font-size: 17px;
+      font-size: 20px;
       line-height: 25px;
     }
   }
@@ -3700,6 +3700,7 @@ body.supply {
   backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
   place-content: center;
+
   color: white;
   /*text-shadow: 0 1px 0 rgba(70, 64, 64, 0.003);*/
   --border-angle: 0turn;
@@ -4186,4 +4187,84 @@ tr:nth-child(3) td, tr:nth-child(3) th {
 tr:nth-child(4) td, tr:nth-child(4) th {
   animation-delay: 1.2s;
 }
+
+/*==================================================================*/
+
+/*--------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+
+
+.bodymarquee {
+  --space: 10px;
+  display: grid;
+  align-content: center;
+  gap: var(--space);
+  width: 100%;
+  font-family: "Corben", system-ui, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.marquee {
+  --duration: 60s;
+  --gap: var(--space);
+
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  /*   transform: skewY(3deg); */
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.marquee__group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+  animation: scroll var(--duration) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__group {
+    animation-play-state: paused;
+  }
+}
+
+.marquee__group img {
+  max-width: clamp(10rem, 1rem + 28vmin, 20rem);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+
+
+
+.marquee--borders {
+  border-block: 3px solid dodgerblue;
+  padding-block: 0.75rem;
+}
+
+.marquee--reverse .marquee__group {
+  animation-direction: reverse;
+  animation-delay: calc(var(--duration) / -2);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
 
