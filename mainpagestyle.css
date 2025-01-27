@@ -1648,7 +1648,7 @@ body {
 /*------------------------------------------*/
 #fixedBtn {
   position: fixed;
-  bottom: 20px;
+  bottom: 140px;
   left: 10px;
   display: none; /* Button initially hidden */
   z-index: 1000;
@@ -3618,7 +3618,7 @@ body.supply {
 
   width: 100%;
 
-  background-image: url(images/bg\ section5.png);
+  background-image: url(images/6\ images\ bg.gif);
 
   background-size: cover; /* Image ko full cover karein */
   background-position: center; /* Image ko center karein */
