@@ -3657,7 +3657,7 @@ body.supply {
 }
 
 
-/*.section10Card {
+.section10Card {
   flex: 0 0 auto;
   width: 350px;
   height: 450px;
@@ -3676,10 +3676,10 @@ body.supply {
  
 }
 
-*/
 
 
-.section10Card {
+
+/*.section10Card {
   width: 350px;
   height: auto;
   display: grid;
@@ -3691,7 +3691,7 @@ body.supply {
   align-items: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   color: white;
-  /*text-shadow: 0 1px 0 rgba(70, 64, 64, 0.003);*/
+  /*text-shadow: 0 1px 0 rgba(70, 64, 64, 0.003);
   --border-angle: 0turn;
   --main-bg: conic-gradient(
     from var(--border-angle),
@@ -3733,7 +3733,7 @@ body.supply {
   syntax: "<angle>";
   inherits: true;
   initial-value: 0turn;
-}
+}*/
 
 
 .section10p{
