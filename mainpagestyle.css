@@ -628,6 +628,14 @@ color: white;
     background-repeat: no-repeat; /* Repeat na karein */
   
   }
+  .aboutustextfirstsectionbgimg2{
+    background-image: url(images/bgmorecontent.png);
+    width: 100%;
+    background-size: cover; /* Image ko full cover karein*/ 
+    background-position: center; /* Image ko center karein */
+    background-repeat: no-repeat; /* Repeat na karein */
+  
+  }
   .aboutustextfirstsection{
    
     padding-left: 15px;
@@ -654,7 +662,7 @@ text-align: justify;
 .bgimagefive{
   width: 100%;
 
-  background-image: url(images/bg\ image\ 2.png);
+  background-image: url(images/bg\ 8\ gif.gif);
 
   background-size: cover; /* Image ko full cover karein */
   background-position: center; /* Image ko center karein */
@@ -2625,7 +2633,7 @@ body.supply {
   margin: 0;
   width: 100%;
 
-  background-image: url(images/bg\ image\ 3.png);
+  background-image: url(images/bg\ section5.png);
 
   background-size: cover; /* Image ko full cover karein */
   background-position: center; /* Image ko center karein */
