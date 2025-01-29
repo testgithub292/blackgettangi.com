@@ -726,6 +726,55 @@ text-align: justify;
   background-repeat: no-repeat; /* Repeat na karein */
   
 }
+
+.secondcardcontainer{
+padding-top: 40px;
+padding-bottom: 20px;
+
+}
+.secondcardinimgheading{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+.secondcardinimg{
+  color: white;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.secondcardimg{
+  width: 100%;
+  height: 80%;
+  border-radius: 15px;
+}
+#secondcardimgcol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media (max-width: 1000px) {
+  #secondcardsrow{
+    display: block;
+  }
+
+  .secondcardinimg{
+    width: 100% !important;
+  }
+  #secondcardimgcol{
+    width: 100%;
+  height: 350px;
+
+  }
+  #secondcardtextcol{
+    width: 100%;
+  }
+  .secondcardimg{
+    width: 100%;
+  }
+}
   /*----------------------------------------------*/
 
     /*------------------------------------------------------*/
