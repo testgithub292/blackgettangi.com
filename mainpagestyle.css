@@ -633,14 +633,14 @@ color: white;
     background-repeat: no-repeat; /* Repeat na karein */
   
   }
-  .aboutustextfirstsectionbgimg2{
+  /*.aboutustextfirstsectionbgimg2{
     background-image: url(images/bgmorecontent.png);
     width: 100%;
-    background-size: cover; /* Image ko full cover karein*/ 
-    background-position: center; /* Image ko center karein */
-    background-repeat: no-repeat; /* Repeat na karein */
+    background-size: cover; /* Image ko full cover karein*
+    background-position: center; /* Image ko center karein *
+    background-repeat: no-repeat; /* Repeat na karein *
   
-  }
+  }*/
   .aboutustextfirstsection{
    
     padding-left: 15px;
