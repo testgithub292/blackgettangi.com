@@ -258,7 +258,7 @@
   }
   .containerfirstlineanimation {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
     color: whitesmoke;
     display: flex;
@@ -283,7 +283,7 @@
   .full-line {
     margin-top: 10px !important;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     
     color: white !important; 
     text-align: justify;
@@ -294,7 +294,7 @@ padding-bottom: 20px;
 
   
   .full-line_next{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
   
   }
