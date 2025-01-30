@@ -797,6 +797,26 @@ document.querySelectorAll('.problem-content-container').forEach(cardInner => {
         });
       });
 
+//-----------------------------------------------------
+
+  
+     // JavaScript for Dropdown Toggle
+     document.addEventListener("DOMContentLoaded", () => {
+      const learnMoreBtn = document.querySelector(".learn-more-btnsecondcard");
+      const dropdownContent = document.querySelector(".dropdown-contentsecondcard");
+
+      learnMoreBtn.addEventListener("click", (e) => {
+        e.preventDefault(); // Prevent default link behavior
+        dropdownContent.classList.toggle("show");
+      });
+
+      document.addEventListener("click", (e) => {
+        // Hide dropdown if clicking outside the card
+        if (!dropdownContent.contains(e.target) && !learnMoreBtn.contains(e.target)) {
+          dropdownContent.classList.remove("show");
+        }
+      });
+    });
 
       //=========================================================================
 /*

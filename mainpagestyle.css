@@ -2514,6 +2514,39 @@ body.supply {
   display: block;
 }
 
+
+/*--------------------------------------*/
+/* Dropdown CSS */
+.dropdown-contentsecondcard {
+  display: none;
+
+  border: 1px solid rgb(76, 53, 114);
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 10px;
+  animation: fadeInDropdown 0.5s ease-in-out;
+  text-align: justify;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@keyframes fadeInDropdown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-contentsecondcard.show {
+  display: block;
+}
 /*===============================*********************************************-------------*/
 
 
@@ -3715,7 +3748,7 @@ body.supply {
 .section10Card {
   flex: 0 0 auto;
   width: 350px;
-  height: 450px;
+  height: auto;
   background: rgba(70, 64, 64, 0.003);
   background-color: rgba(70, 64, 64, 0.003); 
   backdrop-filter: blur(10px); 
